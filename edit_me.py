@@ -3,7 +3,7 @@ def find_max(lst):
     """return the maximum element"""
 
     current_max = lst[0]
-
+    print("git username")
     #
     #  YOUR CODE GOES HERE
     #
