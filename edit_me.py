@@ -1,15 +1,6 @@
-
-def find_max(lst):
-    """return the maximum element"""
-
-    current_max = lst[0]
-    print("git username blakjhkjhhdsfsdf")
-    #
-    #  YOUR CODE GOES HERE
-    #
-
-    return current_max
-
-test_list = [2112*i % 2024 for i in range(10000)]
-
-print(find_max(test_list))
+def FindMax(inputArray):
+    max_value = inputArray[0]  
+    for i in range(1, len(inputArray)):  
+        if inputArray[i] > max_value:  
+            max_value = inputArray[i] 
+    return max_value  #return the maximum
